@@ -1,0 +1,9 @@
+.expense-text {
+    width: 50%;
+    font-size: 1.7rem;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5em;
+  }

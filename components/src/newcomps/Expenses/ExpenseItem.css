@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: none;
+  padding: none;
+}
+
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 2em 2em;
+}
+
+.expense-amount {
+  width: 10%;
+  background: #6f42c1;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: .9em;
+  padding: .3em;
+  border: solid 2px #fff;
+  border-radius: 8px;
+}
+
