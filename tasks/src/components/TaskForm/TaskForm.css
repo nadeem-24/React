@@ -1,0 +1,104 @@
+.form-container {
+    width: 35%;
+    padding: 3em;
+    display: flex;
+    margin: 1em auto 1em;
+    align-items: center;
+}
+
+
+.form-container:hover,
+.form-container:focus {
+    background: #b39afd;
+    color: #fff;
+}
+
+
+
+.form-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.form-container form label {
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin: 0em 0 .3em;
+}
+
+
+.form-container form input {
+    width: 70%;
+    margin: 1.5em 0 1.5em;
+}
+
+
+.form-container form button {
+    width: 30%;
+}
+
+/* Invalid display style */
+
+.content.invalid input {
+    border-color: red;
+    background: #f186c0;
+}
+.content.invalid label {
+    color: #dd0074;
+}
+
+
+@media (min-width:0px) and (max-width:590px) {
+    .form-container {
+        width: 95%;
+        padding: 1.5em;
+    }
+
+
+    .form-container form input {
+        width: 70%;
+    }
+
+
+    .form-container form button {
+        width: 40%;
+    }
+}
+
+@media (min-width:591px) and (max-width:910px) {
+    .form-container {
+        width: 75%;
+        padding: 1.5em;
+    }
+
+
+    .form-container form input {
+        width: 70%;
+    }
+
+
+    .form-container form button {
+        width: 26%;
+    }
+}
+
+
+@media (min-width:910px) and (max-width:1400px) {
+    .form-container {
+        width: 75%;
+        padding: 1.5em;
+    }
+
+
+    .form-container form input {
+        width: 70%;
+    }
+
+
+    .form-container form button {
+        width: 20%;
+    }
+}

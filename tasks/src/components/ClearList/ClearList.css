@@ -1,0 +1,16 @@
+.list-clear {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.list-clear Button {
+    background-color: #1976D2;
+}
+
+.list-clear Button:hover,
+.list-clear Button:focus {
+    background-color: #FF4081;
+}
