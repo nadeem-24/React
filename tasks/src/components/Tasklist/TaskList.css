@@ -4,10 +4,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1em auto 1em;
+    margin: 1em auto 1.3em;
+    transition-duration: 350ms;
+    transition-property: width, background;
+    transition-timing-function: ease-in-out;
+    
 }
 
 .list-container:hover {
+    width: 81%;
     background: #B9F6CA;
 }
 .list-container p {

@@ -1,9 +1,10 @@
+import React from "react";
 import TaskList from "./TaskList";
 import Error from "../Error/Error";
 
 const AllTasks = (props) => {
   return (
-    <div>
+    <React.Fragment>
       {props.items.length === 0 ? (
         <Error>Please Add some tasks.</Error>
       ) : (
@@ -16,7 +17,7 @@ const AllTasks = (props) => {
           />
         ))
       )}
-    </div>
+    </React.Fragment>
   );
 };
 

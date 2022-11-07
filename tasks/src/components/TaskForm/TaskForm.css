@@ -4,6 +4,9 @@
     display: flex;
     margin: 1em auto 1em;
     align-items: center;
+    transition-duration: 300ms;
+    transition-property: background;
+    transition-timing-function: ease-in;
 }
 
 

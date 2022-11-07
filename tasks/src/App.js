@@ -28,11 +28,11 @@ const App = () => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <TaskForm onSaveTasksList={taskListHandler} />
       <ClearList onPress={deleteTaskHandler}></ClearList>
       <AllTasks items={tasks} delete={deleteItemHandler}></AllTasks>
-    </div>
+    </React.Fragment>
   );
 };
 
